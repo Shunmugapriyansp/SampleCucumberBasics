@@ -1,4 +1,4 @@
-package BDDCucumber.CucumberBasics.Clientworks.Login;
+package BDDCucumber.CucumberBasics.CathayPacific.Login;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;

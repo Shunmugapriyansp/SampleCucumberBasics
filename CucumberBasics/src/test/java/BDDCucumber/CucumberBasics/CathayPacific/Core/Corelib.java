@@ -1,9 +1,8 @@
-package BDDCucumber.CucumberBasics.Clientworks.Core;
+package BDDCucumber.CucumberBasics.CathayPacific.Core;
 
 import java.io.FileInputStream;
 import java.util.Arrays;
 import java.util.HashMap;
-
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Function;
@@ -30,13 +29,13 @@ public class Corelib {
 			try {
 				FileInputStream EnvFS = new FileInputStream(
 						System.getProperty("user.dir")
-								+ "\\src\\test\\java\\BDDCucumber\\CucumberBasics\\Clientworks\\Config\\EnvConfig.Properties");
+								+ "\\src\\test\\java\\BDDCucumber\\CucumberBasics\\CathayPacific\\Config\\EnvConfig.Properties");
 				envConf = new Properties();
 				envConf.load(EnvFS);
 
 				FileInputStream ORFS = new FileInputStream(
 						System.getProperty("user.dir")
-								+ "\\src\\test\\java\\BDDCucumber\\CucumberBasics\\Clientworks\\Config\\OR.Properties");
+								+ "\\src\\test\\java\\BDDCucumber\\CucumberBasics\\CathayPacific\\Config\\OR.Properties");
 				ORConf = new Properties();
 				ORConf.load(ORFS);
 

@@ -1,25 +1,25 @@
 
 /*
  * @author: Priyan
- *Simple Changes 
+ *Simple Changes
  */
 
-package BDDCucumber.CucumberBasics.Clientworks.Login;
-
-import BDDCucumber.CucumberBasics.Clientworks.Core.Corelib;
+package BDDCucumber.CucumberBasics.CathayPacific.Login;
+CathayPacific
+import BDDCucumber.CucumberBasics.CathayPacific.Core.Corelib;
 import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 
 public class CWLogin {
-Corelib clsCorelib = new Corelib();	
+Corelib clsCorelib = new Corelib();
 /*	@Given("^I goto \"([^\"])\" on \"([^\"])\"$")
 	public void I_Go_To_On(String url, String browserName){
-		System.out.println("Launching ClientWorks " + url +" on " + browserName);
-		
+		System.out.println("Launching CathayPacific " + url +" on " + browserName);
+
 	}
-	
+
 		// TODO Auto-generated method stub
 	@And("^I enter \"([^\"])\" as \"([^\"])\"$")
 	public void I_Enter_(String object, String text){
@@ -29,22 +29,22 @@ Corelib clsCorelib = new Corelib();
 	@And("^I click on \"([^\"])\" button$")
 	public void I_Click_On(String object){
 		System.out.println("Clicking "+ object );
-		
+
 	}
-	
+
 	@Then("^Login should be \"([^\"])\"$")
 	public void Login_Should_Be(String strExpectedResults){
 		System.out.println("Login is "+ strExpectedResults );
-		
+
 	}*/
-	
-	
+
+
 	//You can implement missing steps with the snippets below:
 
 		@Given("^I go to \"([^\"]*)\" on \"([^\"]*)\"$")
 		public void i_go_to_on(String url, String browserName) throws Throwable {
 		    // Write code here that turns the phrase above into concrete actions
-			System.out.println("Launching ClientWorks " + url +" on " + browserName);
+			System.out.println("Launching CathayPacific " + url +" on " + browserName);
 			clsCorelib.OpenBrowser(browserName);
 			clsCorelib.navigate();
 		    //throw new PendingException();
